@@ -1,0 +1,805 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="assets/Rkm_logo.png">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/rupyainr/1.0.0/rupyaINR.min.css">
+
+
+  <title>PERCEPTRON-THE Tech Fest</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <style>
+    .speakers-box {
+      max-width: 300px;
+      margin: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .speakers-box:hover {
+      transform: translateY(-10px);
+      transition-duration: 100ms;
+    }
+    .speakers-imgbox {
+      margin-top: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="se-pre-con">
+    <div class="drawing" id="loading">
+      <div class="loading-dot"></div>
+    </div>
+  </div>
+  <script>
+    AOS.init();
+  </script>
+
+  <div id="main">
+    <div id="particles-js"></div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-trans sticky-top">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">
+            <img src="assets/logo_white.png" alt="">
+          </a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#speakers">Speaker</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#section3">TEDxMITSG 2017</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#ourteam">Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#section3">Venue</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#sponsors">Sponsor</a>
+              </li>
+
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="#contactus">Contact Us</a>
+                </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="main-body text-center pt-3">
+          <div class="maintitle">
+            <img src="assets/image/logo_white_nobg.png">
+          </div>
+          <br>
+          <br>
+          <div class="dateandplace">
+            <h1 class="fs-29 text-white  fw-500">THE <span class="text-Violate" style="color: #FF00FF;">TECHFEST</span>
+              AT RKMVERI</h1>
+            <h1 class="fs-32 text-white  fw-500">6th <span class="text-base-color">APRIL</span> 2024</h1>
+            <h1 class="fs-27 text-white  fw-500">Department of Computer Science</h1>
+            <h1 class="fs-42 text-white  fw-600">Ramakrishna Mission Vivekananda <span class="">Educational</span> and
+              Research Institute</h1>
+          </div>
+          <!-- <div class="buytickets m-5">
+            <a href="https://www.townscript.com/v1/e/tedxmitsg-242044/booking" class="btntickets">BUY TICKETS</a>
+          </div> -->
+          <div class="countdown-timer">
+            <div class="days">
+              <span class="value">00</span><br>
+              <span class="label">DAYS</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="hours">
+              <span class="value">00</span><br>
+              <span class="label">HOURS</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="minutes">
+              <span class="value">00</span><br>
+              <span class="label">MINS</span>
+            </div>
+            <span class="colon">:</span>
+            <div class="seconds">
+              <span class="value">00</span><br>
+              <span class="label">SEC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="section2">
+    <h1 class="text-black section2title ff-mont pt-2 fs-40 fw-600">ABOUT THE<span class="text-base-color"> EVENT</span>
+    </h1>
+    <div class="about-us mt-4" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container-fluid">
+        <div class="about-main">
+          <div class="row">
+            <div class="col-md-6">
+              <div style="position:relative;height:0;padding-bottom:56.25%">
+                <iframe width="525" height="320" src="https://www.youtube.com/embed/ZV5IC9e5lFQ?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+
+              </div>
+              
+            </div>
+            <div class="col-md-6">
+              <div class="about-ted">
+                <p class="text-black fs-14 fw-400">
+                  Perceptron'24, organised by Department of Computer Science, RKMVERI is one of a kind Techfest, giving
+                  exposures and opportunities to communicate with people with similar interests by participating in
+                  exciting and interactive events.
+                </p>
+                <p class="text-black fs-18 fw-600"><span class="text-base-color"> Event details </span> are mentioned in the <span class="text-base-color1"> brochure.</span>
+
+                </p>
+
+                <p class="text-black fs-18 fw-600">Download the <span class="text-base-color1"> brochure </span> now and
+                  start planning your <span class="text-base-color"> Perceptron'24 </span>experience today !
+                </p>
+              </div>
+              <div class="pdf-voucher">
+                <a href="./assets/image/img/Perceptron_2.0_Brochure.pdf" target="_blank" class="open-pdf-button">Open
+                  Brochure</a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Event List Section -->
+    <div class="event-list">
+      <div class="container justify-con">
+        <h2 class="text-black ff-mont mb-4">Event Lists</h2>
+        <div class="row_event">
+
+          <div class="row_event">
+            <div class="row_event_cards">
+            <a href="/events/turing-show.html" class="event">
+              <img src="./assets/Team Flyer/Online Event/Coding.png" alt="Event 1" style="width: 100%; height: auto;">
+              <h3>THE TURING SHOW</h3>
+              <p>Coding Competition</p>
+              <p>Registration Fee: <span class="text-Red"> 50</span><span class="rupyaINR text-Red">Rs</span></p>
+              <p><span class="text-Red fw-25">Prize Pool : 6000</span><span class="rupyaINR text-Red fw-25">Rs</span></p>
+            </a>
+
+
+
+
+            <a href="https://forms.gle/tpzTV5DgH3dbsnHLA" class="event">
+              <img src="./assets/Team Flyer/Online Event/Gaming.png" alt="Event 1" style="width: 400%; height: 200px;">
+              <h3>KART KARNAGE</h3>
+              <p>Gaming Competition</p>
+              <p>Registration Fee :<span class="text-Red"> 50</span><span class="rupyaINR text-Red">Rs</span> </p>
+              <p><span class="text-Red fw-25">Prize Pool : 6000</span><span class="rupyaINR text-Red fw-25">Rs</span></p>
+            </a>
+
+
+            <a href="https://forms.gle/tpzTV5DgH3dbsnHLA" class="event">
+              <img src="./assets/Team Flyer/Online Event/quiz.png" alt="Event 1" style="width: 400%; height: 200px;">
+              <h3>EXQUIZZIT</h3>
+              <p>Quiz Competition</p>
+              <p>Registration Fee :<span class="text-Red"> 50</span><span class="rupyaINR text-Red">Rs</span> </p>
+              <p><span class="text-Red fw-25">Prize Pool : 6000</span><span class="rupyaINR text-Red fw-25">Rs</span></p>
+            </a>
+
+            <a href="https://forms.gle/tpzTV5DgH3dbsnHLA" class="event">
+              <img src="./assets/Team Flyer/Online Event/AI Hackerthon.png" alt="Event 1"
+                style="width: 400%; height: 200px;">
+              <h3>AI ALCHEMY</h3>
+              <p>AI Hackerthon</p>
+              <p>Registration Fee :<span class="text-Red"> 50</span><span class="rupyaINR text-Red">Rs</span> </p>
+              <p><span class="text-Red fw-25">Prize Pool : 6000</span><span class="rupyaINR text-Red fw-25">Rs</span></p>
+
+            </a>
+
+            <a href="https://forms.gle/tpzTV5DgH3dbsnHLA" class="event">
+              <img src="./assets/Team Flyer/Online Event/photography.png" alt="Event 1"
+                style="width: 400%; height: 200px;">
+              <h3>LENS & LIGHT</h3>
+              <p>Photography Competition</p>
+              <p><span class="text-Red fw-25">Prize Pool : 4500</span><span class="rupyaINR text-Red fw-25">Rs</span></p>
+            </a>
+
+            <a href="https://forms.gle/tpzTV5DgH3dbsnHLA" class="event">
+              <img src="./assets/Team Flyer/Online Event/Snippet.png" alt="Event 1" style="width: 400%; height: 200px;">
+              <h3>WORDSPIRE</h3>
+              <p>Essay Writing Competition</p>
+              <p><span class="text-Red fw-25">Prize Pool : 4500</span><span class="rupyaINR text-Red fw-25">Rs</span></p>
+            </a>
+
+            <div class="event">
+              <img src="./assets/Team Flyer/Online Event/Seminar Event.png" alt="Event 1"
+                style="width: 400%; height: 200px;">
+              <h3>SEMINAR</h3>
+              <p>Accelerate Digital Transformation using Artificial Intelligence</p>
+
+            </div>
+
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="speakers">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="tedxspeakers-title text-center m-3">
+            <h1 class="text-black section2title p-3 fs-40 fw-600 ff-mont" data-aos="fade-up">
+              <span class="text-base-color">SPEAKER</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="tedxspeaker">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <!-- speaker 1 -->
+            <div class="speakers-box" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="d-flex justify-content-center align-items-center speakers-imgbox">
+                <img src="assets/Seminar/Sandeep-Kumar_Final.jpg">
+              </div>
+              <div class="speakers-txtbox">
+                <h1 class="fs-25 fw-900">Sandeep Kumar</h1>
+                <p class="fs-19 fw-500"><br>Founder & CEO, Voxomos</p>
+                <a href="https://www.linkedin.com/in/sandeepkumariitk/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-outline-primary mt-2 mb-4">PROFILE</a>
+              </div>
+            </div>
+            <!-- speaker 1 -->
+            <div class="speakers-box" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="d-flex justify-content-center align-items-center speakers-imgbox">
+                <img src="assets/Seminar/Sandeep-Kumar_Final.jpg">
+              </div>
+              <div class="speakers-txtbox">
+                <h1 class="fs-25 fw-900">Sandeep Kumar</h1>
+                <p class="fs-19 fw-500"><br>Founder & CEO, Voxomos</p>
+                <a href="https://www.linkedin.com/in/sandeepkumariitk/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-outline-primary mt-2 mb-4">PROFILE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="ourteam">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="tedxspeakers-title text-center">
+            <h1 class="text-black section2title fs-60 fw-600 ff-mont" data-aos="fade-up">
+              <span class="text-base-color">OUR TEAM</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="ourteamlist">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="ourteamtitle w-100 text-center m-3">
+              <div class="text-black fw-500 fs-45 font-family-alt-bold" data-aos="fade-up">ORGANISER</div>
+            </div>
+          </div>
+          <div class="orgnisers">
+            <div class="row d-flex justify-content-center">
+              <div class="col-sm-3">
+                <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="teamprofileimg">
+                    <img src="assets/Team Member/sourishDa.png">
+                  </div>
+                  <div class="teamprofiletxt">
+                    <h1 class="fs-16 fw-900">Sourish Ghosh</h1>
+                    <p class="fs-14 fw-500">Secretary</p>
+                    <h4 class="fs-16 fw-900">
+                      <span class="text-base-color1">Contact:</span>
+                      <a href="tel:9163431542" class="phone-number">+91 9163431542</a>
+                    </h4>
+                    <div class="social-links">
+                      <a href="https://github.com/sourishghosh" target="_blank">GitHub</a> |
+                      <a href="https://www.linkedin.com/in/sourishghosh/" target="_blank">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="teamprofileimg">
+                    <img src="assets/Team Member/chitkrak.jpg">
+                  </div>
+                  <div class="teamprofiletxt">
+                    <h1 class="fs-16 fw-900">Chitrak Das</h1>
+                    <p class="fs-14 fw-500">Joint Secretary</p>
+                    <h4 class="fs-16 fw-900">
+                      <span class="text-base-color1">Contact:</span>
+                      <a href="tel:6290361755" class="phone-number">+91 6290361755</a>
+                    </h4>
+                    <div class="social-links">
+                      <a href="https://github.com/chitrakdas" target="_blank">GitHub</a> |
+                      <a href="https://www.linkedin.com/in/chitrakdas/" target="_blank">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Additional team members -->
+          <div class="orgnisers">
+            <div class="row d-flex justify-content-center">
+              <div class="col-sm-3">
+                <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="teamprofileimg">
+                    <img src="assets/Team Member/sreyos.jpg">
+                  </div>
+                  <div class="teamprofiletxt">
+                    <h1 class="fs-16 fw-900">Shreyas Gongopadhay</h1>
+                    <p class="fs-14 fw-500">Convenor</p>
+                    <h4 class="fs-16 fw-900">
+                      <span class="text-base-color1">Contact:</span>
+                      <a href="tel:9163982515" class="phone-number">+91 9163982515</a>
+                    </h4>
+                    <div class="social-links">
+                      <a href="https://github.com/shreyasgongopadhay" target="_blank">GitHub</a> |
+                      <a href="https://www.linkedin.com/in/shreyasgongopadhay/" target="_blank">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="teamprofileimg">
+                    <img src="assets/Team Member/bidit.jpg">
+                  </div>
+                  <div class="teamprofiletxt">
+                    <h1 class="fs-16 fw-900">Bidit Sadhukhan</h1>
+                    <p class="fs-14 fw-500">Treasurer</p>
+                    <h4 class="fs-16 fw-900">
+                      <span class="text-base-color1">Contact:</span>
+                      <a href="tel:6291093502" class="phone-number">+91 6291093502</a>
+                    </h4>
+                    <div class="social-links">
+                      <a href="https://github.com/biditsadhukhan" target="_blank">GitHub</a> |
+                      <a href="https://www.linkedin.com/in/biditsadhukhan/" target="_blank">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Additional team members -->
+          <div class="row">
+            <div class="ourteamtitle w-100 text-center m-3">
+              <div class="text-black fw-500 fs-24 font-family-alt-bold" data-aos="fade-up">CORE TEAM MEMBERS</div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-3">
+              <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="teamprofileimg">
+                  <img src="assets/Team Member/Event/AdisDa.jpeg">
+                </div>
+                <div class="teamprofiletxt">
+                  <h1 class="fs-16 fw-900">Adish Mallik</h1>
+                  <h2 class="fs-16 fw-900">(THE TURING SHOW Lead)</h2>
+                  <h4 class="fs-16 fw-900">
+                    <span class="text-base-color1">Contact:</span>
+                    <a href="tel:8961513487" class="phone-number">+91 8961513487</a>
+                  </h4>
+                  <div class="social-links">
+                    <a href="https://github.com/adishmallik" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/adishmallik/" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="teamprofileimg">
+                  <img src="assets/Team Member/Event/DeponDa.jpg">
+                </div>
+                <div class="teamprofiletxt">
+                  <h1 class="fs-16 fw-900">Dipan Mondal</h1>
+                  <h2 class="fs-16 fw-900">(KART KARNAGE Lead)</h2>
+                  <h4 class="fs-16 fw-900">
+                    <span class="text-base-color1">Contact:</span>
+                    <a href="tel:9330342113" class="phone-number">+91 9330342113</a>
+                  </h4>
+                  <div class="social-links">
+                    <a href="https://github.com/dipanmondal" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/dipanmondal/" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="teamprofileimg">
+                  <img src="assets/Team Member/Event/ArpanDa.jpg">
+                </div>
+                <div class="teamprofiletxt">
+                  <h1 class="fs-16 fw-900">Arpan Kumar</h1>
+                  <h2 class="fs-16 fw-900">(Design Team Lead)</h2>
+                  <h4 class="fs-16 fw-900">
+                    <span class="text-base-color1">Contact:</span>
+                    <a href="tel:9073891216" class="phone-number">+91 9073891216</a>
+                  </h4>
+                  <div class="social-links">
+                    <a href="https://github.com/arpankumar" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/arpankumar/" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="teamprofileimg">
+                  <img src="assets/Team Member/Event/Anirban.jpg">
+                </div>
+                <div class="teamprofiletxt">
+                  <h1 class="fs-16 fw-900">Anirban Dey</h1>
+                  <h2 class="fs-16 fw-900">(EXQUIZZIT Lead)</h2>
+                  <h4 class="fs-16 fw-900">
+                    <span class="text-base-color1">Contact:</span>
+                    <a href="tel:9163568623" class="phone-number">+91 9163568623</a>
+                  </h4>
+                  <div class="social-links">
+                    <a href="https://github.com/anirbandey" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/anirbandey/" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-3">
+              <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="teamprofileimg">
+                  <img src="assets/Team Member/Event/samapan (1).jpg">
+                </div>
+                <div class="teamprofiletxt">
+                  <h1 class="fs-16 fw-900">Samapan Kar</h1>
+                  <h2 class="fs-16 fw-900">(LENS & LIGHT Lead)</h2>
+                  <h4 class="fs-16 fw-900">
+                    <span class="text-base-color1">Contact:</span>
+                    <a href="tel:9062593526" class="phone-number">+91 9062593526</a>
+                  </h4>
+                  <div class="social-links">
+                    <a href="https://github.com/samapankar" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/samapankar/" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="teamprofileimg">
+                  <img src="assets/Team Member/Event/sagnikDaPic.jpg">
+                </div>
+                <div class="teamprofiletxt">
+                  <h1 class="fs-16 fw-900">Sagnik Dutta</h1>
+                  <h2 class="fs-16 fw-900">(WORDSPIRE Lead)</h2>
+                  <h4 class="fs-16 fw-900">
+                    <span class="text-base-color1">Contact:</span>
+                    <a href="tel:9051583677" class="phone-number">+91 9051583677</a>
+                  </h4>
+                  <div class="social-links">
+                    <a href="https://github.com/sagnikdutta" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/sagnikdutta/" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="teamprofileimg">
+                  <img src="assets/Team Member/Event/Soumyadip.png">
+                </div>
+                <div class="teamprofiletxt">
+                  <h1 class="fs-16 fw-900">Soumyadeep Sadhukhan</h1>
+                  <h2 class="fs-16 fw-900">(Social Media Lead)</h2>
+                  <h4 class="fs-16 fw-900">
+                    <span class="text-base-color1">Contact:</span>
+                    <a href="tel:9134031670" class="phone-number">+91 9134031670</a>
+                  </h4>
+                  <div class="social-links">
+                    <a href="https://github.com/soumyadeepsadhukhan" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/soumyadeepsadhukhan/" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="teamprofileimg">
+                  <img src="assets/Team Member/Event/ArnabDa.jpg">
+                </div>
+                <div class="teamprofiletxt">
+                  <h1 class="fs-16 fw-900">Arnab Mukherjee</h1>
+                  <h2 class="fs-16 fw-900">(AI ALCHEMY Lead)</h2>
+                  <h4 class="fs-16 fw-900">
+                    <span class="text-base-color1">Contact:</span>
+                    <a href="tel:8637379018" class="phone-number">+91 8637379018</a>
+                  </h4>
+                  <div class="social-links">
+                    <a href="https://github.com/arnabmukherjee" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/arnabmukherjee/" target="_blank">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="coreteam">
+            <div class="row">
+              <div class="ourteamtitle w-100 text-center m-3">
+                <div class="text-black fw-500 fs-20 font-family-alt-bold" data-aos="fade-up">DESIGN TEAM MEMBERS</div>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-3">
+                <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="teamprofileimg">
+                    <img src="assets/Team Member/Event/Ayantanu.jpg">
+                  </div>
+                  <div class="teamprofiletxt">
+                    <h1 class="fs-16 fw-900">Ayantanu Laha</h1>
+                    <div class="social-links">
+                      <a href="https://github.com/ayantanu" target="_blank">GitHub</a> |
+                      <a href="https://www.linkedin.com/in/ayantanu/" target="_blank">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="teamprofileimg">
+                    <img src="assets/Team Member/Event/Rajsrhi.jpg">
+                  </div>
+                  <div class="teamprofiletxt">
+                    <h1 class="fs-16 fw-900">Rajarshi Saha</h1>
+                    <div class="social-links">
+                      <a href="https://github.com/rajarshi" target="_blank">GitHub</a> |
+                      <a href="https://www.linkedin.com/in/rajarshi/" target="_blank">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="teamprofileimg">
+                    <img src="assets/Team Member/Event/deba_edit_4.jpg">
+                  </div>
+                  <div class="teamprofiletxt">
+                    <h1 class="fs-16 fw-900">Debayan Datta</h1>
+                    <div class="social-links">
+                      <a href="https://github.com/debayandatta" target="_blank">GitHub</a> |
+                      <a href="https://www.linkedin.com/in/debayandatta/" target="_blank">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="teamprofile" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="teamprofileimg">
+                    <img src="assets/Team Member/Event/pank_edit.jpg">
+                  </div>
+                  <div class="teamprofiletxt">
+                    <h1 class="fs-16 fw-900">Pankaj Sadhukhan</h1>
+                    <div class="social-links">
+                      <a href="https://github.com/pankajsadhukhan" target="_blank">GitHub</a> |
+                      <a href="https://www.linkedin.com/in/pankajsadhukhan/" target="_blank">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="section3">
+      <h1 class="text-white section3title ff-mont pt-2 fs-40 fw-600">VENUE</h1>
+      <div class="image-row">
+        <a class="event1">
+          <img src="./assets/image/img/4_002.jpg" alt="Event 1" style="width: 100%; height: auto;">
+        </a>
+
+        <a class="event1">
+          <img src="./assets/image/img/2_003.jpg" alt="Event 1" style="width: 100%; height: auto;">
+        </a>
+
+        <a class="event1">
+          <img src="./assets/image/img/1.jpg" alt="Event 1" style="width: 100%; height: auto;">
+        </a>
+
+      </div>
+
+      <div class="venue mt-4" data-aos="fade-up" data-aos-duration="1000">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1458.2793296344767!2d88.35241344960377!3d22.62946852839911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d7201cee84b%3A0x220345018f3fff05!2sRamakrishna%20Mission%20Vivekananda%20Educational%20and%20Research%20Institute!5e0!3m2!1sen!2sin!4v1711041686367!5m2!1sen!2sin"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <br>
+
+      <p class="text-white fs-18">Department of Computer Science<br>Ramakrishna Mission Vivekananda Educational and
+        Research Institute (RKMVERI)<br>Deemed to be University as declared by Govt. of India under Section 3 of UGC
+        Act, 1956)<br>(Accredited by NAAC with A++ Grade)</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="sponsors">
+      <h1 class="text-white section2title pt-2 fs-40 fw-600 m-3 ff-mont text-center" data-aos="fade-up">OUR<span
+          class="text-base-color "> SPONSOR</span></h1>
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-2 m-3 text-center" data-aos="fade-up" data-aos-duration="500">
+            <div class="sponsorsousimg">
+              <img src="assets/image/voxomos.jpeg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="sponsors-button" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-md-12 text-center">
+
+
+
+
+
+
+              <div class="col-md-3">
+                <div class="socialmedia  text-left">
+                  <h1 class="fs-19 text-white p-2 fw-800 text-center">Connect With Us</h1>
+                  <div class="socialmediaico text-center">
+                    <a href="https://www.facebook.com/perceptron.rkmveri?mibextid=ZbWKwL" target="_blank"><img
+                        src="assets/Facebook (1).png"></a>
+                    <a href="https://www.instagram.com/perceptron2.0?igsh=MXdjcTM4MTcza2c1dg==" target="_blank"><img
+                        src="assets/Insta (1).jpg"></a>
+                    <a href="https://www.linkedin.com/company/perceptron-rkmveri/about/" target="_blank"><img
+                        src="assets/Linkdlin.png"></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=perceptron.cs@gm.rkmvu.ac.in" target="_blank"><img src="assets/mail_final.png"></a>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+</script>
+<script type="text/javascript">var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on the button, open the modal
+  btn.onclick = function () {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }</script>
+<script language="javascript" type="text/javascript">
+  $(window).on('load', function () { $(".se-pre-con").fadeOut("slow");; });
+</script>
+
+<script src="js/particles.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/countdown1.js"></script>
+
+
+</html>
